@@ -1,0 +1,180 @@
+================================================================
+DRAFT VARIANCE ANALYSIS - ACCRUED EXPENSES (24100)
+December 2025 Close
+
+Prepared by: Jessica Park
+Started: Dec 4, 2025 10:15 AM
+Status: DRAFT - INCOMPLETE (abandoned approach)
+================================================================
+
+ATTEMPT #1: Simple categorization
+-----------------------------------
+I tried to just group all the transactions by department:
+
+Finance: $2,100,000
+IT: $450,000
+Facilities: $380,000
+Legal: $95,000
+HR: $1,975,000
+Other: $500,000
+
+Total: $5,500,000 ❌ WAIT THIS DOESN'T TIE
+
+GL ending balance is $3,500,000. I'm double-counting something.
+
+Oh, I see the problem - I'm summing debits AND credits. Need to net them.
+
+-----------------------------------
+
+ATTEMPT #2: Rollforward approach
+-----------------------------------
+Beginning balance Nov 30: $3,100,000
+
+Debits (increases):
+- Let me export all debits...
+- Ok there are like 40 debit transactions
+- Totaling them manually... $2,915,000
+
+Credits (decreases):
+- And like 35 credit transactions
+- Totaling... $2,515,000
+
+Ending balance: $3,100,000 + $2,915,000 - $2,515,000 = $3,500,000 ✓
+
+Ok that ties! But now I need to explain WHY it increased $400K.
+
+What's driving the $2.9M of new accruals?
+
+-----------------------------------
+
+ATTEMPT #3: Categorize by transaction type
+-----------------------------------
+Looking at the transaction descriptions:
+
+"Vendor invoice accrual" - lots of these
+"Employee expense reimbursement" - a bunch of these
+"Accrual reversal" - these reduce the balance
+"Payment" - these also reduce
+"Accrual true-up" - ??? what is this
+"Year-end bonus accrual" - ONE BIG ONE at $1.9M
+
+Oh wow, the bonus accrual is huge. That's probably the main driver.
+
+Let me separate out the bonus from everything else:
+
+DEBITS (new accruals):
+- Year-end bonus: $1,900,000 (single JE-12501)
+- Professional services: $632,500 (multiple vendors)
+- Cloud/IT: $42,000 (AWS)
+- Facilities: $95,000 (various)
+- Contractor payments: $52,000
+- Employee expenses: $64,300
+- Other: $129,200
+---
+Total debits: $2,915,000
+
+CREDITS (reductions):
+- Accrual reversals: $8,500 (prior month utilities)
+- Payments: multiple... let me add them up...
+  - Employee reimbursements: $87,000
+  - Vendor payments: $2,419,500
+---
+Total credits: $2,515,000
+
+Net change: +$400,000
+
+-----------------------------------
+
+ANALYSIS:
+So the $400K increase is:
+- Driven BY: $1.9M bonus accrual
+- Offset BY: $1.5M in net payments of prior accruals
+
+Actually that's kind of misleading. The balance would have DECREASED by $1.5M if not for the bonus.
+
+How should I explain this?
+
+Option A: "Balance increased $400K primarily due to $1.9M year-end bonus accrual, partially offset by $1.5M of payments on prior month accruals"
+
+Option B: "Balance increased $400K. Key driver was year-end bonus accrual of $1.9M. Excluding bonus, underlying accruals decreased $1.5M due to payment of professional services and other obligations from prior periods."
+
+I like Option B better - shows I understand the bonus is one-time.
+
+-----------------------------------
+
+ISSUE: Sarah will ask for MORE DETAIL on the professional services
+
+Let me break that down:
+
+Professional services debits ($632,500):
+- Accenture consulting (AP-28502): $385,000
+- Deloitte audit Q4 (AP-28712): $180,000
+- Legal fees (various): $0 (wait, no new legal accruals in Dec?)
+- Other professional services: $67,500
+
+Hmm, I need to check if legal is in here. Let me search for "legal" in descriptions...
+
+Found it - there was a legal payment (credit) of $95K but no new legal accruals. So legal balance went DOWN.
+
+-----------------------------------
+
+REVISED ANALYSIS:
+
+Variance: +$400,000 (12.9% increase)
+
+Primary drivers:
+1. Year-end bonus accrual: +$1,900,000 (one-time, per comp committee)
+2. Accenture ERP consulting: +$385,000 (November T&M work per SOW)
+3. Deloitte audit fees Q4: +$180,000 (per engagement letter)
+4. AWS infrastructure: +$42,000 (monthly accrual per IT estimate)
+5. Facilities charges: +$95,000 (London office allocation + other)
+6. Other new accruals: +$313,000
+
+Offset by:
+7. Payment of legal fees: -$95,000
+8. Payment of employee expenses: -$87,000
+9. Payment of other vendor obligations: -$2,333,000
+
+Net effect: +$400,000
+
+-----------------------------------
+
+WAIT - something is wrong with my math
+
+Let me recalculate:
+Additions: $1,900,000 + $385,000 + $180,000 + $42,000 + $95,000 + $313,000 = $2,915,000 ✓
+Reductions: $95,000 + $87,000 + $2,333,000 = $2,515,000 ✓
+Net: $2,915,000 - $2,515,000 = $400,000 ✓
+
+Ok it ties.
+
+-----------------------------------
+
+REFLECTION:
+This took me 2 hours and I'm still not confident in the categorization. I had to manually add up like 75 transactions.
+
+And I KNOW Sarah will ask:
+- "What's in the $313K 'other' bucket?" (I need to break that down further)
+- "Why was Accenture $385K? What does the contract say?" (Need to pull the SOW)
+- "Are we sure we captured all accruals? Completeness check?" (Need the emails)
+
+This is so tedious. There has to be a better way.
+
+-----------------------------------
+
+TODO:
+☐ Break down "other" category into meaningful groups
+☐ Attach Accenture SOW as support
+☐ Attach Deloitte engagement letter as support
+☐ Get AWS accrual confirmation email from Mike
+☐ Get completeness confirmations from department heads
+☐ Write narrative explanation (not just bullets)
+☐ Add prior period comparison (is $400K increase normal for Dec?)
+☐ Add risk assessment section
+☐ Format in nice table for Sarah
+
+Ugh. I'll finish this tomorrow.
+
+================================================================
+END OF DRAFT
+================================================================

@@ -1,0 +1,72 @@
+================================================================
+                    ACCENTURE LLP
+               Professional Services Invoice
+================================================================
+
+Invoice Number: INV-2025-11-4782
+Invoice Date: November 28, 2025
+Due Date: December 28, 2025
+
+Bill To:
+TechCorp Inc.
+Attn: Accounts Payable
+500 Technology Drive
+San Francisco, CA 94105
+
+================================================================
+
+Project: ERP Implementation - Phase 2
+Purchase Order: PO-45782
+Period: November 1-30, 2025
+
+Services Rendered:
+----------------------------------------------------------------
+Business Process Analysis              120 hours @ $285/hr  = $34,200
+Technical Architecture Design           85 hours @ $325/hr  = $27,625
+Configuration & Development            180 hours @ $265/hr  = $47,700
+Project Management                      95 hours @ $295/hr  = $28,025
+Change Management & Training            68 hours @ $245/hr  = $16,660
+
+Total Professional Services: $154,210
+
+----------------------------------------------------------------
+Expenses:
+Travel                                                = $3,450
+Lodging                                              = $2,280
+Meals & Incidentals                                  = $1,140
+
+Total Expenses: $6,870
+
+================================================================
+
+Subtotal:                                          $161,080
+Sales Tax (Not Applicable):                              $0
+
+TOTAL AMOUNT DUE:                                  $161,080
+
+================================================================
+
+Payment Terms: Net 30 days
+Payment Method: ACH or Wire Transfer
+
+Remit Payment To:
+Accenture LLP
+Bank: JPMorgan Chase
+ABA Routing: 021000021
+Account: 8847562391
+Reference: INV-2025-11-4782
+
+----------------------------------------------------------------
+
+Project Status Notes:
+- Phase 2 on track for Q1 2026 completion
+- Completed modules: Procurement, Inventory Management
+- In progress: Financial Reporting, Consolidations
+- Next milestone: UAT begins December 15
+
+For questions regarding this invoice, please contact:
+Sarah Martinez, Engagement Manager
+sarah.martinez@accenture.com
++1 (415) 555-7821
+
+================================================================

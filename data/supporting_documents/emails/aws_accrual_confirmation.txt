@@ -1,0 +1,54 @@
+From: Mike Peterson <mpeterson@techcorp.com>
+To: Jessica Park <jpark@techcorp.com>
+Date: December 4, 2025, 2:14 PM
+Subject: RE: AWS Usage Accrual for December
+
+Hi Jessica,
+
+Confirming the AWS accrual methodology for December close:
+
+Month-to-date usage through Dec 3: $38,450
+Extrapolated to full month: $38,450 / 3 days * 31 days = $397,177
+
+However, we made some infrastructure optimizations on Dec 1 that reduced our EC2 instance costs by about 15%. So the straight-line projection would overstate.
+
+Adjusted estimate: $397,177 * 0.85 = $337,600
+
+But to be conservative and account for potential year-end workload spikes, I recommend accruing $42,000 for December, which is consistent with our Q4 monthly average.
+
+This amount should be posted to:
+- GL Account: 80700 (IT Infrastructure)
+- Cost Center: IT-Operations
+- Department: Infrastructure
+
+Let me know if you need anything else!
+
+Mike
+
+---
+Mike Peterson
+Director, IT Infrastructure
+TechCorp Inc.
+mpeterson@techcorp.com | ext. 5847
+
+
+---- Original Message ----
+From: Jessica Park <jpark@techcorp.com>
+To: Mike Peterson <mpeterson@techcorp.com>
+Date: December 4, 2025, 10:32 AM
+Subject: AWS Usage Accrual for December
+
+Hi Mike,
+
+Quick question for month-end close. Can you help me with the AWS usage estimate for December? I need to accrue for it since the invoice won't arrive until mid-January.
+
+What's your best estimate based on MTD usage?
+
+Thanks!
+Jessica
+
+---
+Jessica Park
+Staff Accountant
+Finance Department
+jpark@techcorp.com | ext. 4203

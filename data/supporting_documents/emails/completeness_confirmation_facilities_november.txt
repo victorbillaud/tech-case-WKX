@@ -1,0 +1,68 @@
+From: Tom Richardson <trichardson@techcorp.com>
+To: Jessica Park <jpark@techcorp.com>
+Date: November 7, 2025, 2:18 PM
+Subject: RE: Month-End Accrual Completeness Check - November
+
+Jessica,
+
+Reviewed our Facilities obligations for November. Here's what should be accrued:
+
+1. **SF HQ Building maintenance contract**: $22,000
+   - Annual contract with BuildCare Services
+   - Billed quarterly in arrears, monthly accrual of $22K
+   - Should be in prepaid amortization (GL 13400)
+   - ✓ You confirmed this is being amortized monthly
+
+2. **Facilities shared services accrual**: $58,000
+   - Monthly allocation for shared office services (security, common areas, parking)
+   - This is a standard monthly charge
+   - Should be accrued to 24100
+   - ✓ Already in your accrual workpaper
+
+3. **London office setup costs**: $0
+   - The new London office opened in early November
+   - All setup costs were capitalized in October per Sarah's guidance
+   - Going forward there will be a monthly facilities allocation starting December
+   - ✓ No November accrual needed
+
+4. **Property tax - Q4 installment**: $0
+   - Not due until December 1, no accrual needed in November
+   - ✓ Confirmed
+
+Everything looks clean this month. No unusual items.
+
+Total facilities accruals: $80,000 ($58K to 24100 + $22K amortization in 13400)
+
+Tom
+
+---
+Tom Richardson
+VP, Facilities & Real Estate
+TechCorp Inc.
+trichardson@techcorp.com | ext. 6102
+
+
+---- Original Message ----
+From: Jessica Park <jpark@techcorp.com>
+To: Tom Richardson <trichardson@techcorp.com>; Mike Peterson <mpeterson@techcorp.com>
+Date: November 7, 2025, 9:30 AM
+Subject: Month-End Accrual Completeness Check - November
+
+Hi everyone,
+
+Running through our November close completeness check. Same questions as always:
+
+1. Any vendor invoices received for November services not yet processed?
+2. Any services/goods received in November still waiting for invoice?
+3. Any recurring monthly charges that need accrual?
+
+Please reply by EOD Friday 11/8.
+
+Thanks!
+Jessica
+
+---
+Jessica Park
+Staff Accountant
+Finance Department
+jpark@techcorp.com | ext. 4203

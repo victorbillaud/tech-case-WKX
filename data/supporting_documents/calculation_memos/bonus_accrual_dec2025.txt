@@ -1,0 +1,149 @@
+================================================================
+CALCULATION MEMO: Year-End Bonus Accrual
+Period: December 2025
+Prepared by: Payroll Team
+Date: December 23, 2025
+================================================================
+
+PURPOSE:
+Calculate accrued liability for FY2025 annual bonuses earned but unpaid as of December 31, 2025.
+
+BACKGROUND:
+TechCorp has a performance-based bonus program for eligible employees. Bonuses are based on:
+- Company performance (revenue and EBITDA targets)
+- Individual performance ratings
+- Tenure and role level
+
+Bonuses are paid in Q1 2026 (February payroll) but must be accrued in FY2025 per ASC 710 (compensation expense recognized when earned).
+
+================================================================
+
+STEP 1: ELIGIBLE EMPLOYEE POPULATION
+
+Total headcount as of 12/31/2025: 850 employees
+
+Eligible for annual bonus:
+- Executives (C-suite): 5
+- VPs: 18
+- Directors: 42
+- Managers: 85
+- Individual contributors (L4+): 215
+- Individual contributors (L3): 180
+---
+TOTAL ELIGIBLE: 545 employees
+
+Not eligible:
+- Contractors: 120
+- Part-time: 35
+- New hires (<90 days): 48
+- Hourly employees: 102
+---
+TOTAL INELIGIBLE: 305
+
+================================================================
+
+STEP 2: COMPANY PERFORMANCE MODIFIER
+
+FY2025 Targets vs. Actuals:
+- Revenue Target: $290M | Actual: $294.5M (101.6% of target)
+- EBITDA Target: $45M | Actual: $47.2M (104.9% of target)
+
+Performance modifier per comp committee:
+- 100-105% of target → 1.0x modifier
+- 105-110% of target → 1.1x modifier
+- 110%+ of target → 1.2x modifier
+
+Combined performance: (101.6% + 104.9%) / 2 = 103.3%
+→ Company modifier: 1.0x
+
+================================================================
+
+STEP 3: INDIVIDUAL PERFORMANCE RATINGS
+
+Performance rating distribution (HR data):
+- Exceeds Expectations (5): 82 employees (15%)
+- Above Expectations (4): 191 employees (35%)
+- Meets Expectations (3): 218 employees (40%)
+- Below Expectations (2): 41 employees (7.5%)
+- Does Not Meet (1): 13 employees (2.5%)
+
+Individual multipliers:
+- Rating 5: 1.25x of target bonus
+- Rating 4: 1.10x of target bonus
+- Rating 3: 1.00x of target bonus
+- Rating 2: 0.75x of target bonus
+- Rating 1: 0x (no bonus)
+
+================================================================
+
+STEP 4: TARGET BONUS BY LEVEL
+
+Target bonuses as % of base salary:
+
+Level               | Target % | Avg Base Salary | Avg Target Bonus
+--------------------|----------|-----------------|------------------
+Executives (C-suite)|   50%    | $385,000       | $192,500
+VPs                 |   35%    | $245,000       | $85,750
+Directors           |   25%    | $185,000       | $46,250
+Managers            |   20%    | $145,000       | $29,000
+ICs (L4+)           |   15%    | $125,000       | $18,750
+ICs (L3)            |   10%    | $95,000        | $9,500
+
+================================================================
+
+STEP 5: CALCULATION
+
+Level          | Count | Avg Target | Rating Mix (weighted avg) | Company Mod | Total Accrual
+---------------|-------|------------|---------------------------|-------------|---------------
+Executives     |   5   | $192,500   | 1.15                      | 1.0x        | $1,106,875
+VPs            |  18   | $85,750    | 1.12                      | 1.0x        | $1,728,240
+Directors      |  42   | $46,250    | 1.08                      | 1.0x        | $2,095,950
+Managers       |  85   | $29,000    | 1.05                      | 1.0x        | $2,588,250
+ICs (L4+)      | 215   | $18,750    | 1.03                      | 1.0x        | $4,148,063
+ICs (L3)       | 180   | $9,500     | 1.02                      | 1.0x        | $1,743,900
+                                                   SUBTOTAL:           $13,411,278
+
+Less: Paid mid-year discretionary bonuses (already expensed):               ($450,000)
+Less: Forfeitures (employees who left before payment):                      ($125,000)
+Add: Payroll taxes on bonuses (8.65% FICA):                                 $1,119,775
+
+================================================================
+
+TOTAL ACCRUAL: $13,955,753
+
+Rounded to: $14,000,000
+
+================================================================
+
+ACCOUNTING ENTRY (JE-12501):
+
+DR: Bonus Expense (P&L, multiple departments)        $14,000,000
+   CR: Accrued Bonuses (21200)                                   $14,000,000
+
+Note: I initially calculated this as $13.4M but forgot payroll taxes. Updated calculation includes employer portion of FICA (7.65%) plus state unemployment (1.0% avg).
+
+Also note: there's some estimation here. We don't have final performance ratings for every employee yet (reviews still in progress for ~15% of population). Used manager estimates for those pending reviews.
+
+CFO approved using $14M round number to provide some cushion for uncertainty.
+
+================================================================
+
+SUPPORTING DOCUMENTATION:
+- HR headcount report as of 12/31/2025 [attached]
+- Performance rating distribution [attached]
+- Compensation committee meeting minutes 12/15/2025 [on file with HR]
+- CFO email approval 12/22/2025 [attached]
+
+================================================================
+
+PREPARED BY: David Kim, Payroll Manager
+REVIEWED BY: Sarah Chen, Controller
+APPROVED BY: Michael Torres, CFO
+
+================================================================
+
+NOTES FOR NEXT YEAR:
+- Start this calculation earlier (don't wait until 12/23!)
+- Get final performance ratings locked by 12/15 to reduce estimation
+- Consider building a model to automate this - too much manual Excel work
+- Confirm tax rates with external payroll provider (ADP) before finalizing

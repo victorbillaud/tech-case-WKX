@@ -1,0 +1,76 @@
+From: Tom Richardson <trichardson@techcorp.com>
+To: Jessica Park <jpark@techcorp.com>
+Date: December 5, 2025, 4:47 PM
+Subject: RE: Month-End Accrual Completeness Check
+
+Jessica,
+
+Yes, I've reviewed our Facilities obligations for December and here's what should be accrued:
+
+1. **London office facilities charge**: $67,000
+   - This is the monthly allocation for the new London office that opened in November
+   - Charge posted via intercompany system IC-4502
+   - ✓ Already in GL per my review
+
+2. **SF HQ Building maintenance contract**: $22,000
+   - Annual contract with BuildCare Services
+   - Billed quarterly in arrears, so we need monthly accrual
+   - Should be in prepaid amortization (GL 13400)
+   - ✓ Confirmed with you this is being amortized
+
+3. **HVAC repair at Austin office**: $8,200
+   - Emergency repair on 12/18
+   - Invoice from CoolTech Services received 12/20
+   - Should be coded to Facilities expense (80300)
+   - ⚠️ CHECK: Was this accrued? Invoice# CT-8821
+
+4. **Janitorial services December**: $15,500
+   - Contract with CleanCo, they invoice on 15th of following month
+   - Standard monthly amount
+   - Should be accrued to 24100
+   - ⚠️ CHECK: I don't see this in the accrual listing you sent
+
+5. **Property tax - Q4 installment**: $0
+   - Paid in full on 12/1, no accrual needed
+   - ✓ Confirmed
+
+So please verify items #3 and #4 above are captured. Everything else looks good.
+
+Total additional accruals needed: ~$23,700
+
+Let me know if you need the actual invoices or contracts.
+
+Tom
+
+---
+Tom Richardson
+VP, Facilities & Real Estate
+TechCorp Inc.
+trichardson@techcorp.com | ext. 6102
+
+
+---- Original Message ----
+From: Jessica Park <jpark@techcorp.com>
+To: Tom Richardson <trichardson@techcorp.com>; Mike Peterson <mpeterson@techcorp.com>; Lisa Chen <lchen@techcorp.com>
+Date: December 5, 2025, 11:15 AM
+Subject: Month-End Accrual Completeness Check
+
+Hi everyone,
+
+As part of our December close process, I'm confirming that all expenses incurred in December are properly accrued in our books.
+
+Can you please review your areas and confirm:
+1. Are there any vendor invoices received for December services that haven't been processed yet?
+2. Are there any services/goods received in December where we're still waiting for the invoice?
+3. Are there any recurring monthly charges that need accrual (utilities, subscriptions, etc.)?
+
+Please reply by EOD Friday 12/6 so I can finalize the accruals.
+
+Thanks!
+Jessica
+
+---
+Jessica Park
+Staff Accountant
+Finance Department
+jpark@techcorp.com | ext. 4203

@@ -1,0 +1,51 @@
+account_number,account_name,account_type,category,reconciliation_frequency,preparer,reviewer,risk_level,description
+10100,Cash - Operating,Asset,Cash,Daily,Treasury,Controller,High,Main operating bank account
+10200,Cash - Payroll,Asset,Cash,Daily,Treasury,Controller,High,Dedicated payroll account
+11100,Accounts Receivable,Asset,AR,Monthly,AR Team,Controller,High,Trade receivables from customers
+11200,Allowance for Doubtful Accounts,Asset,AR,Monthly,AR Team,Controller,Medium,Reserve for uncollectible receivables
+13100,Inventory - Raw Materials,Asset,Inventory,Monthly,Operations,Controller,Medium,Raw materials for production
+13200,Inventory - Finished Goods,Asset,Inventory,Monthly,Operations,Controller,Medium,Completed products ready for sale
+13400,Prepaid Expenses,Asset,Prepaid,Monthly,Jessica,Controller,Medium,Prepaid insurance subscriptions maintenance
+13500,Prepaid Insurance,Asset,Prepaid,Monthly,Jessica,Controller,Medium,Annual and multi-year insurance policies
+14100,Property Plant Equipment,Asset,Fixed Assets,Quarterly,Fixed Assets,Controller,Medium,Land buildings machinery equipment
+14200,Accumulated Depreciation,Asset,Fixed Assets,Quarterly,Fixed Assets,Controller,Medium,Cumulative depreciation on fixed assets
+15100,Intangible Assets,Asset,Intangibles,Quarterly,Fixed Assets,Controller,Medium,Patents trademarks software licenses
+15200,Accumulated Amortization,Asset,Intangibles,Quarterly,Fixed Assets,Controller,Medium,Cumulative amortization on intangibles
+15210,Deferred Revenue,Liability,Revenue,Monthly,Jake,Controller,High,Customer payments received for future delivery
+16100,Deferred Tax Assets,Asset,Tax,Quarterly,Tax Team,Controller,Medium,Future tax deductions and credits
+18200,Intercompany Receivables - EMEA,Asset,Intercompany,Monthly,Jake,Controller,High,Amounts owed by EMEA subsidiary
+18210,Intercompany Receivables - APAC,Asset,Intercompany,Monthly,Jake,Controller,High,Amounts owed by APAC subsidiary
+20100,Accounts Payable,Liability,AP,Monthly,AP Team,Controller,High,Trade payables to vendors
+21100,Accrued Payroll,Liability,Payroll,Monthly,Payroll Team,Controller,High,Earned but unpaid wages and salaries
+21200,Accrued Bonuses,Liability,Payroll,Quarterly,Payroll Team,Controller,High,Performance bonuses earned but unpaid
+21300,Payroll Tax Liability,Liability,Payroll,Monthly,Payroll Team,Controller,High,Withheld and employer payroll taxes
+24100,Accrued Expenses,Liability,Accruals,Monthly,Jessica,Controller,High,Expenses incurred but not yet invoiced/paid
+24200,Accrued Professional Services,Liability,Accruals,Monthly,Jessica,Controller,Medium,Consulting legal and advisory fees accrued
+24300,Accrued Commissions,Liability,Accruals,Monthly,Sales Ops,Controller,High,Sales commissions earned but unpaid
+25100,Deferred Rent,Liability,Leases,Quarterly,Facilities,Controller,Low,Straight-line rent adjustment for escalating leases
+26100,Current Portion LT Debt,Liability,Debt,Quarterly,Treasury,Controller,High,Debt principal due within 12 months
+28200,Intercompany Payables - EMEA,Liability,Intercompany,Monthly,Jake,Controller,High,Amounts owed to EMEA subsidiary
+28210,Intercompany Payables - APAC,Liability,Intercompany,Monthly,Jake,Controller,High,Amounts owed to APAC subsidiary
+30100,Common Stock,Equity,Equity,Quarterly,Treasury,Controller,Low,Issued common shares at par value
+30200,Additional Paid-in Capital,Equity,Equity,Quarterly,Treasury,Controller,Low,Excess of issue price over par
+30300,Retained Earnings,Equity,Equity,Annually,Controller,CFO,Low,Cumulative net income less dividends
+30400,Treasury Stock,Equity,Equity,Quarterly,Treasury,Controller,Medium,Repurchased company shares
+40100,Product Revenue,Revenue,Revenue,Monthly,Jake,Controller,High,Revenue from product sales
+40200,Services Revenue,Revenue,Revenue,Monthly,Jake,Controller,High,Revenue from consulting and services
+40300,Subscription Revenue,Revenue,Revenue,Monthly,Jake,Controller,High,Recurring SaaS subscription revenue
+50100,Cost of Goods Sold,Expense,COGS,Monthly,Operations,Controller,High,Direct costs of product manufacturing
+50200,Cost of Services,Expense,COGS,Monthly,Services,Controller,Medium,Direct costs of delivering services
+60100,Sales Salaries,Expense,Sales,Monthly,Payroll Team,Manager,Medium,Base salaries for sales team
+60200,Sales Commissions,Expense,Sales,Monthly,Sales Ops,Manager,High,Variable compensation for sales team
+60300,Marketing Expenses,Expense,Sales,Monthly,Marketing,Manager,Medium,Advertising events and campaigns
+60400,Travel and Entertainment,Expense,Sales,Monthly,Sales Ops,Manager,Medium,Sales and marketing travel expenses
+70100,R&D Salaries,Expense,R&D,Monthly,Payroll Team,Manager,Medium,Base salaries for engineering team
+70200,R&D Contractors,Expense,R&D,Monthly,Engineering Ops,Manager,Medium,Contracted development resources
+70300,Software and Tools,Expense,R&D,Monthly,IT,Manager,Low,Development tools and software licenses
+80100,G&A Salaries,Expense,G&A,Monthly,Payroll Team,Manager,Medium,Base salaries for admin and support staff
+80200,Professional Services,Expense,G&A,Monthly,Finance,Manager,Medium,Legal audit and consulting fees
+80300,Rent Expense,Expense,G&A,Monthly,Facilities,Manager,Medium,Office facility lease payments
+80400,Utilities,Expense,G&A,Monthly,Facilities,Manager,Low,Electric water internet telecom
+80500,Insurance,Expense,G&A,Monthly,Risk,Manager,Low,General liability D&O and property insurance
+80600,Depreciation Expense,Expense,G&A,Monthly,Fixed Assets,Manager,Low,Non-cash depreciation of fixed assets
+80700,IT Infrastructure,Expense,G&A,Monthly,IT,Manager,Medium,Servers cloud hosting and infrastructure

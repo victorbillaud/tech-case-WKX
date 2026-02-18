@@ -1,0 +1,95 @@
+================================================================
+              DELOITTE & TOUCHE LLP
+           Independent Auditors Invoice
+================================================================
+
+Invoice Number: 2025-Q4-2184
+Invoice Date: December 10, 2025
+Client: TechCorp Inc.
+Engagement: Annual Audit FY2025
+
+================================================================
+
+Services Provided - Q4 2025 (Oct-Dec):
+
+Audit Planning & Risk Assessment
+  Partner                    18 hrs  @ $695/hr  = $12,510
+  Senior Manager             32 hrs  @ $485/hr  = $15,520
+  Manager                    45 hrs  @ $345/hr  = $15,525
+                                                   $43,555
+
+Interim Controls Testing (November 2025)
+  Senior Manager             24 hrs  @ $485/hr  = $11,640
+  Senior Associate           85 hrs  @ $265/hr  = $22,525
+  Staff Associate           120 hrs  @ $185/hr  = $22,200
+                                                   $56,365
+
+Substantive Testing - Year End Fieldwork
+  Partner                    12 hrs  @ $695/hr  = $8,340
+  Senior Manager             28 hrs  @ $485/hr  = $13,580
+  Manager                    52 hrs  @ $345/hr  = $17,940
+  Senior Associate          110 hrs  @ $265/hr  = $29,150
+  Staff Associate           145 hrs  @ $185/hr  = $26,825
+                                                   $95,835
+
+Technical Accounting Consultations
+  National Office Partner     8 hrs  @ $795/hr  = $6,360
+  Technical Manager          14 hrs  @ $445/hr  = $6,230
+                                                   $12,590
+
+================================================================
+
+Subtotal Professional Fees:                       $208,345
+
+Out-of-Pocket Expenses:
+  Travel & Transportation                          $4,280
+  Meals (client site visits)                       $1,620
+  Document reproduction & supplies                   $755
+
+Total Expenses:                                     $6,655
+
+================================================================
+
+TOTAL Q4 INVOICE:                                 $215,000
+
+================================================================
+
+Payment Terms: Due upon receipt
+Tax ID: 94-1234567
+
+Remittance Address:
+Deloitte & Touche LLP
+Attn: Accounts Receivable - Audit
+555 Mission Street, Suite 2400
+San Francisco, CA 94105
+
+Wire Transfer Information:
+Bank of America
+ABA: 026009593
+Account: 1234567890
+Reference: TechCorp-Q4-2025
+
+================================================================
+
+Engagement Summary:
+- Total budgeted audit fee FY2025: $850,000
+- Invoiced to date (Q1-Q4): $850,000
+- Remaining: $0
+
+Audit timeline:
+✓ Q1 Planning: Complete
+✓ Q2 Interim testing: Complete
+✓ Q3 Interim testing: Complete
+✓ Q4 Interim testing: Complete
+→ Year-end fieldwork: January 6-24, 2026
+→ Draft report delivery: February 7, 2026
+→ Final opinion: February 28, 2026
+
+================================================================
+
+Questions? Contact:
+David Chen, Audit Senior Manager
+dchen@deloitte.com
+(415) 555-8934
+
+================================================================

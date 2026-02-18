@@ -1,0 +1,59 @@
+transaction_date,post_date,account_number,account_name,description,reference,debit,credit,source,entered_by,department
+2025-11-01,2025-11-01,24100,Accrued Expenses,Vendor invoice accrual - consulting,AP-27821,110000,0,AP System,system_auto,Finance
+2025-11-01,2025-11-01,20100,Accounts Payable,Vendor invoice accrual - consulting,AP-27821,0,110000,AP System,system_auto,Finance
+2025-11-03,2025-11-03,24100,Accrued Expenses,Accrual reversal - Oct utilities,JE-12201,0,7800,Manual JE,jpark,Facilities
+2025-11-03,2025-11-03,80400,Utilities,Accrual reversal - Oct utilities,JE-12201,7800,0,Manual JE,jpark,Facilities
+2025-11-05,2025-11-05,24100,Accrued Expenses,Employee expense reimbursement,EXP-9601,0,19200,Expense System,system_auto,Sales
+2025-11-05,2025-11-05,10100,Cash - Operating,Employee expense reimbursement,EXP-9601,19200,0,Expense System,system_auto,Sales
+2025-11-08,2025-11-08,24100,Accrued Expenses,Professional services - legal fees,AP-27901,72000,0,AP System,system_auto,Legal
+2025-11-08,2025-11-08,20100,Accounts Payable,Professional services - legal fees,AP-27901,0,72000,AP System,system_auto,Legal
+2025-11-10,2025-11-10,24100,Accrued Expenses,Accrued AWS usage estimate,JE-12215,39000,0,Manual JE,jpark,IT
+2025-11-10,2025-11-10,80700,IT Infrastructure,Accrued AWS usage estimate,JE-12215,0,39000,Manual JE,jpark,IT
+2025-11-12,2025-11-12,24100,Accrued Expenses,Payment of accrued consulting,AP-27945,0,85000,AP System,system_auto,Finance
+2025-11-12,2025-11-12,10100,Cash - Operating,Payment of accrued consulting,AP-27945,85000,0,AP System,system_auto,Finance
+2025-11-15,2025-11-15,24100,Accrued Expenses,Facilities accrual,AP-28012,58000,0,AP System,system_auto,Facilities
+2025-11-15,2025-11-15,20100,Accounts Payable,Facilities accrual,AP-28012,0,58000,AP System,system_auto,Facilities
+2025-11-18,2025-11-18,24100,Accrued Expenses,Accrual adjustment,JE-12250,25000,0,Manual JE,treasury_team,Finance
+2025-11-18,2025-11-18,80200,Professional Services,Accrual adjustment,JE-12250,0,25000,Manual JE,treasury_team,Finance
+2025-11-20,2025-11-20,24100,Accrued Expenses,Employee expenses batch,EXP-9712,15800,0,Expense System,system_auto,Multiple
+2025-11-20,2025-11-20,60400,Travel and Entertainment,Employee expenses batch,EXP-9712,0,15800,Expense System,system_auto,Multiple
+2025-11-22,2025-11-22,24100,Accrued Expenses,Audit fees accrual Q3,AP-28145,175000,0,AP System,system_auto,Finance
+2025-11-22,2025-11-22,20100,Accounts Payable,Audit fees accrual Q3,AP-28145,0,175000,AP System,system_auto,Finance
+2025-11-25,2025-11-25,24100,Accrued Expenses,Telecom services,AP-28201,11500,0,AP System,system_auto,IT
+2025-11-25,2025-11-25,20100,Accounts Payable,Telecom services,AP-28201,0,11500,AP System,system_auto,IT
+2025-11-27,2025-11-27,24100,Accrued Expenses,Contractor payment,AP-28234,48000,0,AP System,system_auto,Engineering
+2025-11-27,2025-11-27,10100,Cash - Operating,Contractor payment,AP-28234,0,48000,AP System,system_auto,Engineering
+2025-11-29,2025-11-29,24100,Accrued Expenses,Insurance accrual,AP-28267,24000,0,AP System,system_auto,Risk
+2025-11-29,2025-11-29,20100,Accounts Payable,Insurance accrual,AP-28267,0,24000,AP System,system_auto,Risk
+2025-11-30,2025-11-30,24100,Accrued Expenses,Month-end accrual adjustments,JE-12290,18000,0,Manual JE,jpark,Finance
+2025-11-30,2025-11-30,80200,Professional Services,Month-end accrual adjustments,JE-12290,0,18000,Manual JE,jpark,Finance
+2025-11-01,2025-11-01,18200,Intercompany Receivables - EMEA,IC allocation - IT services,IC-4301,750000,0,IC System,system_auto,IT
+2025-11-01,2025-11-01,28200,Intercompany Payables - EMEA,IC allocation - IT services,IC-4301,0,750000,IC System,system_auto,IT
+2025-11-05,2025-11-05,18200,Intercompany Receivables - EMEA,Product sale to EMEA,IC-4315,380000,0,IC System,system_auto,Sales
+2025-11-05,2025-11-05,40100,Product Revenue,Product sale to EMEA,IC-4315,0,380000,IC System,system_auto,Sales
+2025-11-10,2025-11-10,28200,Intercompany Payables - EMEA,Payment to EMEA,IC-4323,0,320000,IC System,system_auto,Treasury
+2025-11-10,2025-11-10,10100,Cash - Operating,Payment to EMEA,IC-4323,320000,0,IC System,system_auto,Treasury
+2025-11-15,2025-11-15,18200,Intercompany Receivables - EMEA,Management fee Q3,IC-4367,110000,0,IC System,system_auto,Finance
+2025-11-15,2025-11-15,40200,Services Revenue,Management fee Q3,IC-4367,0,110000,IC System,system_auto,Finance
+2025-11-22,2025-11-22,18200,Intercompany Receivables - EMEA,R&D cost allocation,IC-4412,240000,0,IC System,system_auto,Engineering
+2025-11-22,2025-11-22,70100,R&D Salaries,R&D cost allocation,IC-4412,0,240000,IC System,system_auto,Engineering
+2025-11-01,2025-11-01,15210,Deferred Revenue,Revenue recognition - monthly,REV-8701,0,115000,Revenue System,system_auto,Finance
+2025-11-01,2025-11-01,40300,Subscription Revenue,Revenue recognition - monthly,REV-8701,115000,0,Revenue System,system_auto,Finance
+2025-11-05,2025-11-05,15210,Deferred Revenue,Customer payment - annual contract,INV-12201,950000,0,Billing System,system_auto,Finance
+2025-11-05,2025-11-05,10100,Cash - Operating,Customer payment - annual contract,INV-12201,0,950000,Billing System,system_auto,Finance
+2025-11-10,2025-11-10,15210,Deferred Revenue,Revenue recognition batch,REV-8734,0,280000,Revenue System,system_auto,Finance
+2025-11-10,2025-11-10,40300,Subscription Revenue,Revenue recognition batch,REV-8734,280000,0,Revenue System,system_auto,Finance
+2025-11-15,2025-11-15,15210,Deferred Revenue,Customer payments received,INV-12278,720000,0,Billing System,system_auto,Finance
+2025-11-15,2025-11-15,10100,Cash - Operating,Customer payments received,INV-12278,0,720000,Billing System,system_auto,Finance
+2025-11-20,2025-11-20,15210,Deferred Revenue,Revenue recognition enterprise,REV-8867,0,390000,Revenue System,system_auto,Finance
+2025-11-20,2025-11-20,40300,Subscription Revenue,Revenue recognition enterprise,REV-8867,390000,0,Revenue System,system_auto,Finance
+2025-11-25,2025-11-25,15210,Deferred Revenue,Year-end contract renewals,INV-12412,580000,0,Billing System,system_auto,Finance
+2025-11-25,2025-11-25,10100,Cash - Operating,Year-end contract renewals,INV-12412,0,580000,Billing System,system_auto,Finance
+2025-11-01,2025-11-01,13400,Prepaid Expenses,Software prepayment,AP-27801,42000,0,AP System,system_auto,IT
+2025-11-01,2025-11-01,20100,Accounts Payable,Software prepayment,AP-27801,0,42000,AP System,system_auto,IT
+2025-11-05,2025-11-05,13400,Prepaid Expenses,Amortization - software,JE-12220,0,35000,Manual JE,jpark,IT
+2025-11-05,2025-11-05,70300,Software and Tools,Amortization - software,JE-12220,35000,0,Manual JE,jpark,IT
+2025-11-15,2025-11-15,13400,Prepaid Expenses,Amortization - maintenance,JE-12240,0,58000,Manual JE,jpark,Multiple
+2025-11-15,2025-11-15,80300,Rent Expense,Amortization - maintenance,JE-12240,58000,0,Manual JE,jpark,Multiple
+2025-11-20,2025-11-20,13400,Prepaid Expenses,Annual subscription,AP-28089,78000,0,AP System,system_auto,Marketing
+2025-11-20,2025-11-20,20100,Accounts Payable,Annual subscription,AP-28089,0,78000,AP System,system_auto,Marketing

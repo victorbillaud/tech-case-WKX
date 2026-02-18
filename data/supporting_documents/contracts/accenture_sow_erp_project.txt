@@ -1,0 +1,185 @@
+================================================================
+                  STATEMENT OF WORK
+           ERP Implementation - Phase 2
+================================================================
+
+Agreement Date: August 15, 2025
+Effective Date: September 1, 2025
+Client: TechCorp Inc.
+Service Provider: Accenture LLP
+
+================================================================
+
+1. PROJECT SCOPE
+
+Accenture will provide professional services to support TechCorp's implementation of SAP S/4HANA ERP system, Phase 2 components:
+
+Phase 2 Modules:
+- Financial Reporting & Consolidations
+- Procurement & Supplier Management
+- Inventory Management
+- Fixed Assets Management
+- Project Accounting
+
+================================================================
+
+2. DELIVERABLES
+
+2.1 Business Process Documentation
+- Current state process maps
+- Future state design documents
+- Gap analysis and requirements specification
+
+2.2 Technical Design & Configuration
+- System architecture design
+- Integration specifications
+- Custom development (ABAP, Fiori apps)
+- Master data migration strategy
+
+2.3 Testing & Quality Assurance
+- Unit testing
+- Integration testing
+- User acceptance testing (UAT) support
+
+2.4 Training & Change Management
+- End-user training materials
+- Train-the-trainer sessions
+- Change management communications
+
+2.5 Go-Live Support
+- Cutover planning
+- Go-live support (2 weeks)
+- Hypercare support (4 weeks post go-live)
+
+================================================================
+
+3. PROJECT TIMELINE
+
+Phase 2 Duration: September 1, 2025 - March 31, 2026 (7 months)
+
+Key Milestones:
+- Sep 2025: Business Process Design [Complete ✓]
+- Oct 2025: Technical Architecture [Complete ✓]
+- Nov 2025: Configuration & Development [Complete ✓]
+- Dec 2025: Integration Testing [In Progress →]
+- Jan 2026: User Acceptance Testing
+- Feb 2026: Training & Cutover Prep
+- Mar 2026: Go-Live
+
+================================================================
+
+4. FEES & PAYMENT TERMS
+
+4.1 Professional Services Fees
+
+Fixed Fee Component: $1,200,000
+- Covers defined deliverables per project plan
+- Payable in 7 monthly installments of $171,428
+
+Time & Materials Component: Up to $400,000
+- For out-of-scope change requests
+- Billed monthly in arrears
+- Requires TechCorp approval via Change Order process
+
+Total Not-to-Exceed: $1,600,000
+
+4.2 Hourly Rates (for T&M work):
+- Partner: $695/hour
+- Senior Manager: $485/hour
+- Manager: $345/hour
+- Senior Consultant: $285/hour
+- Consultant: $245/hour
+
+4.3 Expenses
+- Travel, lodging, meals billed at cost
+- Subject to TechCorp travel policy limits
+- Estimated at 5% of professional fees
+
+4.4 Payment Terms
+- Invoices issued by 5th business day of following month
+- Payment due Net 30 days
+- Late payments subject to 1.5% monthly interest
+
+================================================================
+
+5. INVOICING SUMMARY TO DATE
+
+Month        Fixed Fee    T&M      Expenses   Total      Status
+-----------------------------------------------------------------
+Sep 2025     $171,428    $12,400   $8,200    $192,028   Paid ✓
+Oct 2025     $171,428    $28,650   $9,100    $209,178   Paid ✓
+Nov 2025     $171,428    $154,210  $6,870    $332,508   Invoiced
+Dec 2025     $171,428    [TBD]     [TBD]     [Pending]  In progress
+-----------------------------------------------------------------
+
+Total Invoiced to Date: $733,714
+Remaining Contract Value: $866,286
+
+================================================================
+
+6. RESOURCES
+
+Accenture Team:
+- Engagement Partner: Jennifer Wu
+- Project Manager: Sarah Martinez
+- Technical Architect: Raj Patel
+- Functional Leads: 3 senior consultants
+- Development Team: 5-7 consultants (varies by sprint)
+
+TechCorp Team:
+- Executive Sponsor: Sarah Chen (Controller)
+- Project Lead: Tom Anderson (IT)
+- Business Process Owners: Various department heads
+- Technical Team: 3 internal developers
+
+================================================================
+
+7. GOVERNANCE
+
+Weekly Status Meetings: Thursdays 10am PT
+Monthly Steering Committee: First Tuesday of month
+Issue Escalation: Per RACI matrix in Project Charter
+
+================================================================
+
+8. ASSUMPTIONS & DEPENDENCIES
+
+- TechCorp to provide timely access to systems and data
+- Subject matter experts available per agreed schedule
+- Decisions made within 5 business days of escalation
+- Infrastructure provisioned per technical requirements
+
+================================================================
+
+9. CHANGE MANAGEMENT
+
+Any scope changes require written Change Order approved by:
+- TechCorp: Sarah Chen (Controller)
+- Accenture: Jennifer Wu (Partner)
+
+Change Orders include impact to timeline, cost, and resources.
+
+================================================================
+
+10. INTELLECTUAL PROPERTY
+
+Custom developments owned by TechCorp upon final payment.
+Accenture retains IP rights to methodologies and tools.
+
+================================================================
+
+11. CONFIDENTIALITY
+
+Both parties subject to Master Services Agreement dated June 1, 2024 including confidentiality and data protection terms.
+
+================================================================
+
+SIGNATURES:
+
+TechCorp Inc.                    Accenture LLP
+/s/ Sarah Chen                   /s/ Jennifer Wu
+Sarah Chen                       Jennifer Wu
+Corporate Controller             Managing Director
+Date: August 15, 2025            Date: August 15, 2025
+
+================================================================

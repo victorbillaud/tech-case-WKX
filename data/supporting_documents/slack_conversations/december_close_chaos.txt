@@ -1,0 +1,260 @@
+# Slack Channel: #finance-month-end-close
+## December 2025 Close - Selected Conversations
+
+---
+
+### Dec 3, 2025
+
+**Jessica Park** 9:47 AM
+@maria-rodriguez Question on the Accenture invoice. We got INV-2025-11-4782 for November work ($161K), but I'm seeing a separate charge in the GL for $385K on 12/4. What is that?
+
+**Maria Rodriguez** 10:12 AM
+The $385K is also Accenture - it's T&M work beyond the fixed fee. Should have been accrued in November but the invoice just came through. Need to figure out if we should accrue it to Nov (reopen) or book it in Dec.
+
+**Jessica Park** 10:15 AM
+😩 This is why I hate close. Can we just accrue it in Dec? Saves us a prior period adjustment.
+
+**Sarah Chen** 10:18 AM
+No, Jessica. If the work was performed in November, it needs to be in November for proper matching. We'll need a JE to book it retroactively.
+
+Check with the project manager to confirm when the work was actually done. If it's mixed Nov/Dec, split it.
+
+**Jessica Park** 10:23 AM
+On it. But this is going to delay my recon submission 😔
+
+**Jake Morrison** 10:25 AM
+@jessica-park Welcome to my world. IC charges from EMEA are ALWAYS late. I've learned to just build buffer time into Day 1-2.
+
+---
+
+### Dec 4, 2025
+
+**Tom Richardson** 2:34 PM
+@jessica-park @sarah-chen Heads up - we have an $8,200 emergency HVAC repair at Austin office on 12/18. Invoice came in today (CoolTech Services, invoice CT-8821). Where should this be coded?
+
+**Jessica Park** 2:41 PM
+Was this budgeted? And is it a repair (expense) or an improvement (capitalize)?
+
+**Tom Richardson** 2:43 PM
+Emergency repair - compressor failed. Definitely expense. Not budgeted.
+
+**Jessica Park** 2:45 PM
+Ok, I'll accrue it to 24100 for now. Sarah, is that right or should it go straight to facilities expense?
+
+**Sarah Chen** 2:52 PM
+Accrue it to 24100 if invoice isn't processed yet. Once AP processes it, the accrual reverses and it hits 80300 (facilities expense).
+
+**Jessica Park** 2:53 PM
+👍
+
+**Tom Richardson** 3:01 PM
+Also, FYI - we're paying CleanCo $15.5K/month for janitorial services. They invoice on the 15th of the following month. Do you accrue for that?
+
+**Jessica Park** 3:15 PM
+😱 We don't currently! Should we?
+
+**Sarah Chen** 3:18 PM
+Yes! That's a recurring monthly service. Add it to your accrual workpaper going forward. Good catch, Tom.
+
+@jessica-park Add this to your "recurring accruals checklist" so we don't miss it again.
+
+**Jessica Park** 3:22 PM
+Adding to list... 📝
+- AWS monthly (already doing)
+- Utilities (already doing)
+- CleanCo janitorial (NEW - $15.5K/month)
+- Insurance premiums (quarterly)
+
+Anyone else have recurring accruals I should know about? 😅
+
+---
+
+### Dec 5, 2025
+
+**Jake Morrison** 11:03 AM
+@treasury-team I'm seeing a $48K FX adjustment on intercompany EMEA balance (JE-12548). Can someone explain the rate used? I need to document this for my recon.
+
+**Treasury Team** 11:34 AM
+Hey Jake - that's the FX revaluation based on Nov 30 spot rate of 1.0466 USD/EUR. The IC balance is denominated in EUR (€3.65M) which converts to $3.82M.
+
+Prior month we used 1.0412, so there's a $48K FX gain from the EUR strengthening.
+
+Rate source: Bloomberg terminal as of 4pm ET on 11/30.
+
+**Jake Morrison** 11:38 AM
+Perfect, thanks. Attaching your Slack message as support doc 😄
+
+**Treasury Team** 11:39 AM
+lol ok, but we also have a formal FX rate schedule if Sarah needs it for audit
+
+**Jake Morrison** 11:41 AM
+Even better. Can you drop it in the shared drive under /Month End Close/December/Supporting Docs/?
+
+**Treasury Team** 11:47 AM
+Done 👍
+
+---
+
+### Dec 6, 2025
+
+**Jessica Park** 4:52 PM
+QUESTION: I'm doing my completeness check on accrued expenses. I emailed department heads but only got responses from Tom (Facilities) and Mike (IT).
+
+Should I chase down the others or just document "no response = no additional accruals identified"?
+
+**Maria Rodriguez** 5:04 PM
+Chase them down. We can't assume silence means completeness. Give them until EOD Monday, then escalate to their managers if needed.
+
+This is a SOX control - we need documented evidence of the completeness review.
+
+**Jessica Park** 5:07 PM
+😮‍💨 Monday it is. There goes my weekend plan to finish early.
+
+**Sarah Chen** 5:12 PM
+Jessica - I appreciate the hustle, but this is important. Completeness is where we're most vulnerable. An auditor will ask "How do you know you didn't miss anything?" and we need to show we asked.
+
+**Jessica Park** 5:15 PM
+Understood. I'll send follow-ups now with Monday deadline.
+
+---
+
+### Dec 7, 2025
+
+**Jake Morrison** 8:34 AM
+🚨 ISSUE: I'm trying to reconcile IC Receivables EMEA and there's a $98K transaction that I *thought* was EMEA but it's actually APAC.
+
+Posted as IC-4523 to account 18200 (EMEA) but should be 18210 (APAC).
+
+I need a reclassification JE. Can someone help with the entry number?
+
+**Maria Rodriguez** 8:41 AM
+Post it as JE-12455. I'll get approvals.
+
+What happened? Why was it miscoded?
+
+**Jake Morrison** 8:45 AM
+Honestly not sure. It came through the IC system (Trintech) and the system auto-posted based on the entity code. But someone must have entered the wrong entity code.
+
+I caught it because the APAC balance looked low and EMEA looked high. So I dug into detail and found this.
+
+**Sarah Chen** 8:52 AM
+Good catch, Jake. This is why we do reconciliations.
+
+@maria-rodriguez Can we figure out who entered it wrong and provide feedback? This is the 2nd or 3rd time this has happened.
+
+**Maria Rodriguez** 8:55 AM
+On it. I'll check with the IC team.
+
+---
+
+### Dec 8, 2025
+
+**Jessica Park** 1:23 PM
+@sarah-chen I submitted my accrued expenses recon this morning. Let me know if you have questions!
+
+**Sarah Chen** 3:47 PM
+@jessica-park Reviewed your recon. Kicking it back with comments:
+
+1. Variance explanation is too high-level. You said "$400K increase due to year-end activity" but didn't break down what that activity was. I need specifics.
+
+2. The Accenture $385K accrual - you mentioned it but didn't explain WHY it's $385K. Need to see the invoice or contract support.
+
+3. Missing documentation for the $73K incentive comp accrual. Where did that number come from?
+
+4. Completeness assertion is good but you're still missing responses from Sales Ops and Engineering Ops. Can't approve until we have those.
+
+Please address and resubmit by EOD tomorrow.
+
+**Jessica Park** 3:52 PM
+😞 Got it. Working on it now.
+
+**Jake Morrison** 4:01 PM
+@jessica-park Hang in there. I got kicked back on my first 3 reconciliations when I started. You learn what Sarah wants over time.
+
+Pro tip: For the Accenture invoice, check the shared drive under /Vendor Contracts/Accenture/ - the SOW should be there with rate schedule.
+
+**Jessica Park** 4:05 PM
+Thanks Jake! 🙏
+
+---
+
+### Dec 9, 2025
+
+**Maria Rodriguez** 9:15 AM
+CLOSE STATUS UPDATE:
+
+Reconciliations submitted: 28 / 45
+Reconciliations approved: 12 / 45
+
+We're behind pace. Need 33 submitted by EOD today to stay on track for Day 8 close.
+
+@jessica-park @jake-morrison and team - please prioritize getting recons submitted today. Even if not perfect, submit and we'll iterate.
+
+**Jessica Park** 9:22 AM
+Resubmitting 24100 in next hour. Also working on 13400 (prepaid expenses).
+
+**Jake Morrison** 9:24 AM
+15210 (deferred revenue) is ready to submit. 18200 (IC EMEA) needs one more piece of documentation from Hans in EMEA, should have it by noon.
+
+18210 (IC APAC) will be submitted tomorrow AM.
+
+**Maria Rodriguez** 9:28 AM
+Good progress. Thanks team.
+
+---
+
+### Dec 10, 2025
+
+**Sarah Chen** 11:42 AM
+Quick reminder: We have our Deloitte interim testing meeting tomorrow (12/11) at 2pm. They'll be reviewing our Q4 close process and sampling reconciliations.
+
+Please make sure your recons are audit-ready (complete documentation, clear explanations).
+
+**Jake Morrison** 11:48 AM
+Which accounts are they sampling?
+
+**Sarah Chen** 11:51 AM
+They haven't told us yet (it's random sampling), but assume they'll hit the high-risk accounts:
+- Revenue/Deferred Revenue
+- Intercompany balances
+- Accrued expenses
+- Payroll/bonuses
+
+So those should be bulletproof.
+
+**Jessica Park** 11:55 AM
+*nervous laughter* 😅
+
+My recon is approved now right? I saw your approval email this morning.
+
+**Sarah Chen** 11:58 AM
+Yes, you're good. Nice work on the resubmission - much better quality.
+
+---
+
+### Dec 11, 2025
+
+**Maria Rodriguez** 4:37 PM
+CLOSE STATUS - END OF DAY 7:
+
+Reconciliations submitted: 44 / 45 ✅
+Reconciliations approved: 38 / 45 ⚠️
+
+Still in review: 6 reconciliations
+We're on track for Day 8 close IF we can get final approvals tomorrow AM.
+
+Great work everyone. One more day! 💪
+
+**Jessica Park** 4:42 PM
+🎉 Survived another close!
+
+**Jake Morrison** 4:45 PM
+Month-end close drinking game: Take a shot every time someone says "Can you explain this variance?" 🍺
+
+**Sarah Chen** 4:48 PM
+Very funny, Jake 😏
+
+But seriously, good work team. This was a smoother close than last month. Quality of submissions improved.
+
+**Michael Torres** 4:55 PM
+Nice work finance team. Looking forward to the flash report tomorrow 👍

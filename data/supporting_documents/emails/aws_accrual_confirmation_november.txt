@@ -1,0 +1,52 @@
+From: Mike Peterson <mpeterson@techcorp.com>
+To: Jessica Park <jpark@techcorp.com>
+Date: November 6, 2025, 3:22 PM
+Subject: RE: AWS Usage Accrual for November
+
+Hi Jessica,
+
+Here's the AWS accrual info for November close:
+
+Month-to-date usage through Nov 5: $6,280
+Extrapolated to full month: $6,280 / 5 days * 30 days = $37,680
+
+We're in a steady state this month — no major infrastructure changes or migrations planned. Usage has been consistent with September and October.
+
+I recommend accruing $39,000 for November, which accounts for some variability in workload patterns and is in line with our Q3/Q4 monthly average.
+
+This amount should be posted to:
+- GL Account: 80700 (IT Infrastructure)
+- Cost Center: IT-Operations
+- Department: Infrastructure
+
+Let me know if you need anything else!
+
+Mike
+
+---
+Mike Peterson
+Director, IT Infrastructure
+TechCorp Inc.
+mpeterson@techcorp.com | ext. 5847
+
+
+---- Original Message ----
+From: Jessica Park <jpark@techcorp.com>
+To: Mike Peterson <mpeterson@techcorp.com>
+Date: November 6, 2025, 10:05 AM
+Subject: AWS Usage Accrual for November
+
+Hi Mike,
+
+Same drill as last month — need your AWS usage estimate for the November close. Invoice won't come until mid-December so we need to accrue.
+
+What's your best estimate based on current MTD usage?
+
+Thanks!
+Jessica
+
+---
+Jessica Park
+Staff Accountant
+Finance Department
+jpark@techcorp.com | ext. 4203
