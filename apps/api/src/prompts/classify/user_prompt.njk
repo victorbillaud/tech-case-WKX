@@ -1,0 +1,18 @@
+Classify this file.
+
+Filename: {{ filename | oneLine }}
+MIME type: {{ mime | oneLine }}
+
+File head (first {{ headChars }} chars):
+---
+{{ head }}
+---
+
+Rules:
+- gl_transactions: CSV of GL lines (debit/credit/reference columns).
+- account_balances: CSV of monthly balances per account.
+- chart_of_accounts: CSV listing accounts (number/name/type/risk).
+- document: anything else (invoice, contract, email, calculation_memo, report).
+
+If kind is "document" but you cannot confidently determine its docType, set docType to null.
+Return kind, docType, and a short rationale. Do not invent references or amounts.

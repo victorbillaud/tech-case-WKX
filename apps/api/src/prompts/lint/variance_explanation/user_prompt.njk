@@ -1,0 +1,18 @@
+## Variance analysis (MoM GL change)
+
+deltaAmount (MoM GL change to explain): {{ varianceSummary.deltaAmount }}
+Prior GL balance: {{ varianceSummary.priorBalance }}
+Current GL balance: {{ varianceSummary.currentBalance }}
+Material: {{ varianceSummary.isMaterial }}
+
+Rollforward ties to GL: {{ rollforwardSummary.ties }}
+Rollforward unexplained difference (separate issue): {{ rollforwardSummary.unexplainedDifference }}
+
+Drivers:
+{{ drivers | json }}
+
+## Narrative
+
+{{ narrative | oneLine }}
+
+Return adequate (boolean) and reason only.

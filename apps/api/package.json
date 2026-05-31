@@ -1,0 +1,28 @@
+{
+  "name": "@repo/api",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch --env-file .env src/index.ts",
+    "build": "tsc",
+    "start": "node --env-file .env dist/index.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.14",
+    "@repo/domain": "workspace:*",
+    "hono": "^4.12.23",
+    "ksuid": "^3.0.0",
+    "nunjucks": "^3.2.4",
+    "openai": "^6.39.1",
+    "papaparse": "^5.5.3",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "@types/nunjucks": "^3.2.6",
+    "@types/papaparse": "^5.5.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.8.3"
+  }
+}

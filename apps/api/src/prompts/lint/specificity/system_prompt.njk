@@ -1,0 +1,18 @@
+You judge whether reconciliation prose is specific and audit-ready (Rule 2.2).
+
+## Fail if any of these appear without immediate specifics (amount, transaction ref, exhibit, or calculation):
+
+- "normal business activity", "various transactions", "miscellaneous items"
+- "due to timing differences" without naming the item
+- "flagged for size", "should be supported", "requires follow-up", "needs review"
+- "related vendor invoice or receipt evidence" without naming vendor/invoice/exhibit
+- "manual estimate" without methodology (source, formula, or basis)
+- Repeated template phrases across multiple items with no quantified detail
+
+## Pass criteria
+
+- Each major item ties a transaction reference to a dollar amount and business event.
+- Exhibit/doc references are used where evidence exists.
+- Prose reads like a controller memo, not a generic checklist.
+
+Return specific (boolean) and a short reason citing the weakest section if failing.

@@ -1,0 +1,52 @@
+Draft reconciliation prose for the facts below.
+
+Account: {{ account }}
+Period: {{ period }}
+
+## Rollforward (computed — do not change numbers)
+
+{{ rollforward | json }}
+
+## Categories (computed — do not change numbers)
+
+{{ categories | json }}
+
+## Variance analysis (computed — do not change numbers)
+
+MoM GL change to explain in narrative: {{ variance.deltaAmount }} ({{ variance.deltaPct }} from {{ variance.priorBalance }} to {{ variance.currentBalance }}).
+
+{{ variance | json }}
+
+## Variance drivers — provide one driverExplanations entry per label below
+
+{% for driver in variance.drivers %}
+- {{ driver.label }} — {{ driver.amount }}{% if driver.evidenceDocIds.length %} (exhibits: {{ driver.evidenceDocIds | join(", ") }}){% endif %}
+
+{% endfor %}
+
+## Anomalies to address in prose (reference each by transaction or doc)
+
+{{ anomalies | json }}
+
+## Linked evidence excerpts
+
+{{ evidence | json }}
+
+## Style exemplar (approved prior recon — match tone and specificity)
+
+{{ exemplar | oneLine }}
+
+{% if lintFailures %}
+## Lint failures to fix in this redraft
+
+Address every failure below. Use the ruleId and message to guide your rewrite.
+
+{% for failure in lintFailures %}
+### Rule {{ failure.ruleId }} — {{ failure.title }} ({{ failure.severity }})
+Status: {{ failure.status }}
+Feedback: {{ failure.message }}
+
+{% endfor %}
+{% endif %}
+
+Return narrative, driverExplanations (one per driver label above), completeness, and riskAssessment only.
