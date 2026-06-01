@@ -20,6 +20,7 @@ import {
 } from "@repo/ui/components/table";
 import { cn } from "@repo/ui/lib/utils";
 
+import { DocumentViewerDrawer } from "@/features/documents/document-viewer-drawer.js";
 import { ClassifyQueue } from "@/features/ingestion/classify-queue.js";
 import { IngestionReportView } from "@/features/ingestion/ingestion-report-view.js";
 import type {
@@ -195,6 +196,7 @@ function TransactionsTab({
 
 function DocumentsTab({ period }: { period: string }) {
   const { data: documents, isLoading, error } = useStoreDocuments(period);
+  const { openDocument, documentViewer } = useDocumentViewer(period);
 
   return (
     <Card>
@@ -221,7 +223,13 @@ function DocumentsTab({ period }: { period: string }) {
               <li key={doc.docId} className="rounded-md border p-3">
                 <div className="flex flex-wrap items-start justify-between gap-2">
                   <div className="min-w-0 space-y-1">
-                    <p className="text-sm font-medium">{doc.sourcePath}</p>
+                    <button
+                      type="button"
+                      className={documentLinkClassName}
+                      onClick={() => openDocument(doc.docId, doc.sourcePath)}
+                    >
+                      {doc.sourcePath}
+                    </button>
                     <p className="text-muted-foreground font-mono text-xs">
                       {doc.docId}
                     </p>
@@ -264,6 +272,7 @@ function DocumentsTab({ period }: { period: string }) {
           </ul>
         )}
       </CardContent>
+      {documentViewer}
     </Card>
   );
 }
@@ -299,6 +308,7 @@ function AccountTab({
   account: string;
 }) {
   const { data: detail, isLoading, error } = useStoreAccount(period, account);
+  const { openDocument, documentViewer } = useDocumentViewer(period);
 
   return (
     <Card>
@@ -403,7 +413,13 @@ function AccountTab({
                       key={doc.docId}
                       className="rounded-md border px-3 py-2 text-xs"
                     >
-                      <p className="font-medium">{doc.sourcePath}</p>
+                      <button
+                        type="button"
+                        className={documentLinkClassName}
+                        onClick={() => openDocument(doc.docId, doc.sourcePath)}
+                      >
+                        {doc.sourcePath}
+                      </button>
                       <p className="text-muted-foreground mt-0.5">
                         Matches: {doc.matchedReferences.join(", ")}
                         {doc.docType ? ` · ${doc.docType}` : ""}
@@ -426,7 +442,15 @@ function AccountTab({
                       className="rounded-md border px-3 py-2 text-xs"
                     >
                       <div className="flex flex-wrap items-center gap-2">
-                        <p className="font-medium">{doc.sourcePath}</p>
+                        <button
+                          type="button"
+                          className={documentLinkClassName}
+                          onClick={() =>
+                            openDocument(doc.docId, doc.sourcePath)
+                          }
+                        >
+                          {doc.sourcePath}
+                        </button>
                         {!doc.matchesPeriodTransactions && (
                           <Badge variant="outline" className="text-[10px]">
                             No {period} txn match
@@ -446,8 +470,40 @@ function AccountTab({
           </>
         )}
       </CardContent>
+      {documentViewer}
     </Card>
   );
+}
+
+const documentLinkClassName = cn(
+  "text-primary text-left text-sm font-medium underline underline-offset-2",
+  "hover:text-primary/80",
+);
+
+function useDocumentViewer(period: string) {
+  const [activeDocId, setActiveDocId] = useState<string | null>(null);
+  const [sourcePath, setSourcePath] = useState<string | undefined>();
+
+  const openDocument = (docId: string, path?: string) => {
+    setActiveDocId(docId);
+    setSourcePath(path);
+  };
+
+  const documentViewer = (
+    <DocumentViewerDrawer
+      period={period}
+      docId={activeDocId}
+      sourcePath={sourcePath}
+      onOpenChange={(open) => {
+        if (!open) {
+          setActiveDocId(null);
+          setSourcePath(undefined);
+        }
+      }}
+    />
+  );
+
+  return { openDocument, documentViewer };
 }
 
 function AccountDocumentSection({
